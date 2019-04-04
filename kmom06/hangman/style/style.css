@@ -1,0 +1,107 @@
+.header {
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    left: 395px;
+    height: 50px;
+    width: 400px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 40px;
+    color: rgb(51, 51, 51);
+}
+
+.content {
+    position: relative;
+    background-color: #eee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.267);
+}
+
+.left {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    width: 350px;
+}
+
+.right {
+    position: absolute;
+    top: 35px;
+    left: 400px;
+}
+
+.footer {
+    position: absolute;
+    top: 495px;
+    margin: 2em;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.541);
+}
+
+.letterArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 150px;
+    width: 320px;
+    margin: 10px;
+}
+
+.resultArea {
+    border-top: 1px solid rgb(51, 51, 51);
+    height: 100px;
+    width: 292px;
+    padding: 10px;
+    margin-left: 14px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.messageArea {
+    height: 30px;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+}
+
+.success {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
+
+.endgame {
+    transition: background-color 0.5s ease;
+    background-color: rgb(151, 151, 151);
+}
+
+.letter {
+    margin: 3px;
+    padding: 1px;
+    width: 26px;
+    text-align: center;
+    background-color: rgb(151, 151, 151);
+    font-size: 18px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.267);
+}
+
+.letter:hover {
+    cursor: pointer;
+}
+
+.letter:disabled:hover {
+    cursor: default;
+}
+
+.letter:disabled {
+    transition: background-color 0.08s ease;
+    background-color: rgb(221, 220, 220);
+}

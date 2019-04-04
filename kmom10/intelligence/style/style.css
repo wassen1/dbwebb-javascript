@@ -1,0 +1,393 @@
+h1 {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    color: rgba(62, 73, 73, 0.534);
+    text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.267);
+}
+
+h3 {
+    color: rgba(10, 10, 10, 0.719);
+}
+
+footer {
+    margin: 2em;
+}
+
+.content {
+    position: relative;
+    background-color: #eee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 550px;
+    width: 800px;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.267);
+}
+
+.presentationContainer {
+    position: absolute;
+    top: 50px;
+    left: 157px;
+    display: table;
+    text-align: center;
+    padding: 20px 50px;
+    background-image: url("../img/bedge-grunge.png");
+    height: 180px;
+    width: 450px;
+    border-radius: 3px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.541);
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.171);
+    cursor: pointer;
+}
+
+.presentation {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.questionContainer {
+    position: absolute;
+    top: 50px;
+    left: 232px;
+    -webkit-justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.267);
+    background-image: url("../img/bedge-grunge.png");
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.questionBox {
+    display: table;
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url("../img/bedge-grunge.png");
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 0.541);
+}
+
+.question {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.answer {
+    height: 50px;
+    width: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: oldlace;
+    background-image: url("../img/bedge-grunge.png");
+    border-radius: 3px;
+    line-height: 40px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.541);
+}
+
+.next {
+    height: 50px;
+    width: 100px;
+    margin-right: 50px;
+    background-color: goldenrod;
+    background-image: url("../img/bedge-grunge.png");
+    border-radius: 3px;
+    line-height: 40px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.541);
+}
+
+.nextContainer {
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.triangleShape {
+    width: 0;
+    height: 0;
+    margin-top: 5%;
+    border-left: 31px solid transparent;
+    border-right: 31px solid transparent;
+    border-bottom: 54px solid black;
+}
+
+.rectangleShape {
+    margin-top: 15%;
+    width: 100%;
+    height: 70%;
+}
+
+.circleShape {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.squareShape {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-size: 100%;
+}
+
+.bgColRed {
+    background-color: red;
+}
+
+.bgColYellow {
+    background-color: yellow;
+}
+
+.bgColBlue {
+    background-color: blue;
+}
+
+.bgColGreen {
+    background-color: green;
+}
+
+.bordBtmRed {
+    border-bottom-color: red;
+}
+
+.bordBtmYellow {
+    border-bottom-color: yellow;
+}
+
+.bordBtmBlue {
+    border-bottom-color: blue;
+}
+
+.bordBtmGreen {
+    border-bottom-color: green;
+}
+
+.square {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.squareParent {
+    position: relative;
+    display: inline-block;
+    height: 59px;
+    width: 59px;
+    padding: 0;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.squareContainer {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    width: 350px;
+    height: 470px;
+}
+
+#progressBarContainer {
+    position: absolute;
+    top: 560px;
+    left: 35px;
+    border-radius: 10px;
+}
+
+#progressBar {
+    background-image: url("../img/bedge-grunge.png");
+    background-color: green;
+    border-radius: 10px;
+    height: 100%;
+    width: 0;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+p:first-child {
+    font-weight: bold;
+}
+
+p:last-child {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tableContainer {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 300px;
+    height: 500px;
+}
+
+.listEl {
+    display: block;
+    height: 40px;
+    width: 170px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: oldlace;
+    background-image: url("../img/bedge-grunge.png");
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.541);
+    pointer-events: none;
+}
+
+.fail {
+    transition: background-color 0.5s ease;
+    background-color: indianred;
+}
+
+.correct {
+    transition: background-color 0.5s ease;
+    background-color: forestgreen;
+}
+
+.flag-canvas {
+    position: relative;
+    width: 700px;
+    height: 470px;
+}
+
+.flag13-15 {
+    width: 75px;
+    height: 65px;
+}
+
+.belgien {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    background-color: #f1f800;
+}
+
+.belgien .part1 {
+    width: 25px;
+    height: 65px;
+    background-color: #000;
+}
+
+.belgien .part2 {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 25px;
+    height: 65px;
+    background-color: #f40000;
+}
+
+.flag2-3 {
+    width: 97px;
+    height: 65px;
+}
+
+.france {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    background-color: #fff;
+}
+
+.france .part1 {
+    width: 32px;
+    height: 65px;
+    background-color: #380099;
+}
+
+.france .part2 {
+    position: absolute;
+    top: 0;
+    left: 65px;
+    width: 32px;
+    height: 65px;
+    background-color: #f40000;
+}
+
+.indonesia {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    background-color: #fff;
+}
+
+.indonesia .part1 {
+    width: 97px;
+    height: 32px;
+    background-color: #f00;
+}
+
+.indonesia .part2 {
+    position: absolute;
+    width: 97px;
+    height: 32px;
+    background-color: #fff;
+}
+
+.flag5-8 {
+    width: 103px;
+    height: 65px;
+}
+
+.sweden {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    background-color: #f5e600;
+}
+
+.sweden .part1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 26px;
+    background-color: #2b3f9b;
+}
+
+.sweden .part2 {
+    position: absolute;
+    top: 39px;
+    left: 0;
+    width: 32px;
+    height: 26px;
+    background-color: #2b3f9b;
+}
+
+.sweden .part3 {
+    position: absolute;
+    top: 0;
+    left: 45px;
+    width: 58px;
+    height: 26px;
+    background-color: #2b3f9b;
+}
+
+.sweden .part4 {
+    position: absolute;
+    top: 39px;
+    left: 45px;
+    width: 58px;
+    height: 26px;
+    background-color: #2b3f9b;
+}

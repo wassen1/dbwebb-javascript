@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: rgba(62, 73, 73, 0.534);
+    text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.267);
+}
+
+h3 {
+    color: rgba(10, 10, 10, 0.719);
+}
+
+footer {
+    margin: 2em;
+}
+
+.content {
+    position: relative;
+    background-color: #eee;
+
+    /* padding: 2em; */
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.267);
+}
+
+
+.figure {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+}
